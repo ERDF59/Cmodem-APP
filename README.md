@@ -65,6 +65,6 @@ keyPassword=你的密钥密码
 
 ## 来源
 
-部分页面、协议和资源来自 [vaeann/FHCpeBoard](https://github.com/vaeann/FHCpeBoard)，感谢原作者。导入版本和文件校验值保存在 `docs/upstream-*-manifest.json` 中。
+导入版本和文件校验值保存在 `docs/upstream-*-manifest.json` 中。
 
 上游未声明许可证，本仓库也暂未添加许可证；需要复用或再分发相关代码时，请先确认原作者的授权。
