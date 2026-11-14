@@ -1,0 +1,11 @@
+{
+  "name": "fhcpeboard-local-import-tools",
+  "private": true,
+  "description": "Build-time parsing only; these dependencies are not packaged in the Android app.",
+  "devDependencies": {
+    "acorn": "8.15.0",
+    "acorn-walk": "8.3.4",
+    "astring": "1.9.0",
+    "parse5": "7.3.0"
+  }
+}

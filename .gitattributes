@@ -1,0 +1,2 @@
+# Preserve upstream bytes: regression manifests verify the exact source hashes.
+* -text

@@ -1,0 +1,12 @@
+{
+  "repository": "vaeann/FHCpeBoard",
+  "revision": "fba4e87a78261080cbdaca5eb2e51d3ebd2415f9",
+  "version": {
+    "app1": "v1.4.2",
+    "html": "v1.4.2"
+  },
+  "coreSha256": "0733500d7cb654797867d23006b9b40b1c55afac9a554f926af19d2e8f2e0fac",
+  "htmlSha256": "5b9ba73df8474cf31eb517d8debf03a29406b5e7a4cf8fd9a5b9935f202f0922",
+  "retrieved": "2026-10-27T04:15:02.948Z",
+  "note": "Core is an external resource referenced by the pinned launcher; exact content is identified separately by SHA-256."
+}

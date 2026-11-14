@@ -1,0 +1,164 @@
+{
+  "get_device_info": {
+    "code": 200,
+    "result": "success",
+    "device_info": {
+      "modem_model": "TEST_MODEM",
+      "firmware": "TEST_FIRMWARE",
+      "operator_name": "测试运营商",
+      "imei": "000000000000000",
+      "imsi": "000000000000000"
+    }
+  },
+  "get_lcd_info": {
+    "code": 200,
+    "lcd_info": {
+      "network_type": "NR-SA",
+      "cpu_usage": 3.75,
+      "cpu_temp": 61.635,
+      "rsrp": -84,
+      "rsrq": -12,
+      "sinr": 15,
+      "band": 41,
+      "pci": 581,
+      "wan_ip": "10.0.0.2"
+    }
+  },
+  "get_bandinfo_fast": {
+    "code": 200,
+    "nr_band": 41,
+    "nr_dl_bandwidth": "100M",
+    "nr_ul_bandwidth": "100M",
+    "net_ambr_dl": "1024000 Kbps",
+    "net_ambr_ul": "102400 Kbps"
+  },
+  "get_cainfo": {
+    "code": 200,
+    "nr_pcc_num": 1,
+    "nr_scc_num": 0,
+    "nr_pcc_info": [
+      {
+        "nr_pcc_band": 41,
+        "nr_pcc_pci": 581,
+        "nr_pcc_arfcn": 504990,
+        "nr_pcc_dl_bandwidth": 11,
+        "nr_pcc_ul_bandwidth": 11
+      }
+    ]
+  },
+  "get_cellinfo": {
+    "code": 200,
+    "serving_rat": "NR-SA",
+    "sa_info": [
+      {
+        "pci": 581,
+        "nr_arfcn": 504990,
+        "rsrp": -84,
+        "rsrq": -11,
+        "sinr": 0,
+        "rssi": -73
+      },
+      {
+        "pci": 520,
+        "nr_arfcn": 504990,
+        "rsrp": -93,
+        "rsrq": -12,
+        "sinr": 7,
+        "rssi": 0
+      }
+    ]
+  },
+  "get_signalstrength": {
+    "code": 200,
+    "nr_info": [
+      {
+        "rsrp": -84,
+        "rsrq": -12,
+        "snr": 15,
+        "rssi": -73
+      }
+    ]
+  },
+  "get_throughput": {
+    "code": 200,
+    "nr_throughput_info": {
+      "mac_throughput_dl": 8000000,
+      "mac_throughput_ul": 8000
+    }
+  },
+  "get_client_count": {
+    "code": 200,
+    "online_devices": 2,
+    "client_count": 2
+  },
+  "get_sim_qci": {
+    "code": 200,
+    "qci": 9
+  },
+  "traffic_total": {
+    "code": 200,
+    "total_rx": 2097152,
+    "total_tx": 1048576
+  },
+  "traffic_daily": [
+    {
+      "date": "20261110",
+      "rx": 1048576,
+      "tx": 524288
+    }
+  ],
+  "get_bandmode_str": {
+    "code": 200,
+    "current_umts_band": "8",
+    "current_lte_band": "1/3/41",
+    "current_nr_band": "41/78",
+    "support_lte_band": "1/3/41",
+    "support_nr_band": "41/78/79"
+  },
+  "get_rat": {
+    "code": 200,
+    "rat": "21"
+  },
+  "get_celllock": {
+    "code": 200,
+    "cell_lock_info": {
+      "opt": 0,
+      "act": 0,
+      "arfcn": 0,
+      "pci": 0,
+      "lock_mode": 0
+    }
+  },
+  "get_celllock_list": {
+    "code": 200,
+    "lte_cell_count": 0,
+    "nr_cell_count": 0,
+    "lte_cell_list": [],
+    "nr_cell_list": []
+  },
+  "get_sms_messages": {
+    "code": 200,
+    "messages": {},
+    "pdu_count": 0
+  },
+  "system_board": {
+    "kernel": "6.18.55",
+    "model": "Softbank Air6 CPE",
+    "release": {
+      "description": "OpenWrt SNAPSHOT TEST",
+      "distribution": "OpenWrt",
+      "version": "SNAPSHOT"
+    }
+  },
+  "system_info": {
+    "uptime": 8149,
+    "memory": {
+      "total": 2000,
+      "free": 400,
+      "available": 1200,
+      "cached": 700,
+      "buffered": 100
+    }
+  },
+  "system_cpu_temp": 61.635
+}

@@ -1,0 +1,253 @@
+{
+  "data": {
+    "get_lcd_info": {
+      "lcd_info": {
+        "network_type": "NR-SA",
+        "rsrp": -81,
+        "rsrq": -11,
+        "sinr": 16,
+        "rssi": null
+      },
+      "code": 200,
+      "result": "success",
+      "partial": false
+    },
+    "get_signalstrength": {
+      "nr_info": [
+        {
+          "rssi": -71,
+          "rsrq": -11,
+          "rsrp": -81,
+          "snr": 17,
+          "nr_cc_num": 2,
+          "nr_cc_info": [
+            {
+              "nr5g_cc_type": "NR PCC",
+              "rssi_rx0": -46,
+              "rssi_rx1": -43,
+              "rssi_rx2": -44,
+              "rssi_rx3": -43,
+              "trs_rsrp_rx0": -255,
+              "trs_rsrp_rx1": -255,
+              "trs_rsrp_rx2": -255,
+              "trs_rsrp_rx3": -255,
+              "trs_snr_rx0": -255,
+              "trs_snr_rx1": -255,
+              "trs_snr_rx2": -255,
+              "trs_snr_rx3": -255,
+              "ssb_rsrp_rx0": -84,
+              "ssb_rsrp_rx1": -78,
+              "ssb_rsrp_rx2": -86,
+              "ssb_rsrp_rx3": -79,
+              "ssb_snr_rx0": 13,
+              "ssb_snr_rx1": 16,
+              "ssb_snr_rx2": 14,
+              "ssb_snr_rx3": 16
+            },
+            {
+              "nr5g_cc_type": "NR SCC 1",
+              "rssi_rx0": -42,
+              "rssi_rx1": -43,
+              "rssi_rx2": -255,
+              "rssi_rx3": -255,
+              "trs_rsrp_rx0": -255,
+              "trs_rsrp_rx1": -255,
+              "trs_rsrp_rx2": -255,
+              "trs_rsrp_rx3": -255,
+              "trs_snr_rx0": -255,
+              "trs_snr_rx1": -255,
+              "trs_snr_rx2": -255,
+              "trs_snr_rx3": -255,
+              "ssb_rsrp_rx0": -67,
+              "ssb_rsrp_rx1": -68,
+              "ssb_rsrp_rx2": -162,
+              "ssb_rsrp_rx3": -162,
+              "ssb_snr_rx0": 17,
+              "ssb_snr_rx1": 15,
+              "ssb_snr_rx2": -256,
+              "ssb_snr_rx3": -256
+            }
+          ]
+        }
+      ],
+      "code": 200,
+      "result": "success"
+    },
+    "get_cainfo": {
+      "lte_pcc_num": 0,
+      "lte_scc_num": 0,
+      "nr_pcc_num": 1,
+      "nr_scc_num": 1,
+      "nr_pcc_info": [
+        {
+          "nr_pcc_type": "NR PCC",
+          "nr_pcc_band": 41,
+          "nr_pcc_pci": 581,
+          "nr_pcc_arfcn": 504990,
+          "nr_pcc_dl_bandwidth": 11,
+          "nr_pcc_ul_bandwidth": 11,
+          "nr_pcc_dl_mimo": 3,
+          "nr_pcc_ul_mimo": 1,
+          "nr_pcc_dl_modulation": 2,
+          "nr_pcc_ul_modulation": 3,
+          "nr_pcc_dl_rb": 4,
+          "nr_pcc_ul_rb": 206,
+          "nr_pcc_dl_mcs": 10,
+          "nr_pcc_ul_mcs": 19,
+          "nr_pcc_pucch_tx_pwr": -3,
+          "nr_pcc_lte_dl_tm": 0,
+          "nr_pcc_lte_ul_tm": 0,
+          "nr_pcc_pusch_tx_pwr": 29,
+          "nr_pcc_dl_tput": 27195,
+          "nr_pcc_ul_tput": 7392,
+          "nr_pcc_dl_bwp_bandwidth": 11,
+          "nr_pcc_ul_bwp_bandwidth": 11
+        }
+      ],
+      "nr_scc_info": [
+        {
+          "nr_scc_type": "NR SCC 1",
+          "nr_scc_state": 2,
+          "nr_scc_ul_configured": 0,
+          "nr_scc_band": 28,
+          "nr_scc_pci": 582,
+          "nr_scc_arfcn": 152650,
+          "nr_scc_dl_bandwidth": 5,
+          "nr_scc_ul_bandwidth": 255,
+          "nr_scc_dl_mimo": 1,
+          "nr_scc_ul_mimo": 255,
+          "nr_scc_dl_modulation": 3,
+          "nr_scc_ul_modulation": 255,
+          "nr_scc_dl_rb": 19,
+          "nr_scc_ul_rb": 255,
+          "nr_scc_dl_mcs": 16,
+          "nr_scc_ul_mcs": 255,
+          "nr_scc_pucch_tx_pwr": 255,
+          "nr_scc_lte_dl_tm": 0,
+          "nr_scc_lte_ul_tm": 0,
+          "nr_scc_pusch_tx_pwr": 255,
+          "nr_scc_dl_tput": 96,
+          "nr_scc_ul_tput": 0,
+          "nr_scc_dl_bwp_bandwidth": 5,
+          "nr_scc_ul_bwp_bandwidth": 255
+        }
+      ],
+      "code": 200,
+      "result": "success"
+    },
+    "get_cellinfo": {
+      "serving_rat": "NR-SA",
+      "cell_num": 7,
+      "sa_info": [
+        {
+          "pci": 581,
+          "nr_arfcn": 504990,
+          "rssi": -71,
+          "rsrp": -80,
+          "rsrq": -11,
+          "sinr": 17
+        },
+        {
+          "pci": 520,
+          "nr_arfcn": 504990,
+          "rssi": 0,
+          "rsrp": -94,
+          "rsrq": -12,
+          "sinr": 7
+        },
+        {
+          "pci": 558,
+          "nr_arfcn": 504990,
+          "rssi": 0,
+          "rsrp": -98,
+          "rsrq": -18,
+          "sinr": -6
+        },
+        {
+          "pci": 36,
+          "nr_arfcn": 504990,
+          "rssi": 0,
+          "rsrp": -102,
+          "rsrq": -17,
+          "sinr": -5
+        },
+        {
+          "pci": 556,
+          "nr_arfcn": 152650,
+          "rssi": 0,
+          "rsrp": -95,
+          "rsrq": -14,
+          "sinr": -1
+        },
+        {
+          "pci": 463,
+          "nr_arfcn": 152650,
+          "rssi": 0,
+          "rsrp": -97,
+          "rsrq": -17,
+          "sinr": -5
+        },
+        {
+          "pci": 122,
+          "nr_arfcn": 152650,
+          "rssi": 0,
+          "rsrp": -97,
+          "rsrq": -17,
+          "sinr": -4
+        }
+      ],
+      "code": 200,
+      "result": "success"
+    },
+    "get_measinfo": {
+      "meas_info": {
+        "nr_pcc_info": [
+          {
+            "cc_type": "NR PCC",
+            "path_loss": 91,
+            "rank_indicator": 4,
+            "brsrp": -80,
+            "serv_rsrp": 76,
+            "serv_rsrq": 65,
+            "ssb_best_beam_id": 2,
+            "ssb_snr_avg": 15,
+            "ssb_rsrp_avg": -80,
+            "trs_snr_avg": -11,
+            "trs_rsrp_avg": -101,
+            "serv_snr": 80,
+            "serv_rssi": -67
+          }
+        ],
+        "nr_scc_info": [
+          {
+            "cc_type": "NR SCC 1",
+            "path_loss": 94,
+            "rank_indicator": 2,
+            "brsrp": -68,
+            "serv_rsrp": 90,
+            "serv_rsrq": 65,
+            "ssb_best_beam_id": 3,
+            "ssb_snr_avg": 16,
+            "ssb_rsrp_avg": -68,
+            "trs_snr_avg": -255,
+            "trs_rsrp_avg": -255,
+            "serv_snr": 83,
+            "serv_rssi": -55
+          }
+        ]
+      },
+      "lte_pcc_num": 0,
+      "lte_scc_num": 0,
+      "nr_pcc_num": 1,
+      "nr_scc_num": 1,
+      "code": 200,
+      "result": "success"
+    }
+  },
+  "expected": {
+    "rsrp": "-80",
+    "rsrq": "-11",
+    "sinr": "17",
+    "rssi": "-71"
+  }
+}
