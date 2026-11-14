@@ -1,6 +1,6 @@
 # Air6 APP
 
-SoftBank Air6 的 Android 管理客户端，基于 [FHCpeBoard](https://github.com/vaeann/FHCpeBoard) 修改，适配 OpenWrt / LuCI cmodem。当前版本 **1.4.3-local-52**。
+SoftBank Air6 的 Android 管理客户端，适配 OpenWrt / LuCI cmodem。当前版本 **1.4.3-local-52**。
 
 连接设备网络，填写管理地址、账号和密码即可使用。默认地址通常是 `192.168.1.1`，账号通常是 `root`。账号和密码加密保存在手机本地，无需注册云端账号。
 
